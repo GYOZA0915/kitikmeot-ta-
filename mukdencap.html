@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ムクデンキャップ</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-table, .pedigree-table {
+            border: 1px solid black;
+            width: 45%; /* 両方のテーブルが横並びになるよう調整 */
+            margin: 0;
+        }
+
+        .info-table th, .info-table td, .pedigree-table th, .pedigree-table td, .record-table th, .record-table td {
+            border: 1px solid black; /* セルごとの境界線 */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .pedigree-table .top-row {
+            background-color: #add8e6; /* 薄い水色 */
+        }
+
+        .pedigree-table .mother-row {
+            background-color: #f8d7da; /* 薄い赤色 */
+        }
+
+        .record-table .first-place {
+            background-color: #ffffe0; /* 薄い黄色 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ムクデンキャップ</h1>
+    </header>
+    <nav>
+        <p><a href="index.html">ホーム</a> > <a href="KTRA.html">KTRA（カジノ）</a> > <a href="ktrakeiba.html">競馬</a> > <a href="horse.html">競走馬一覧</a> > ムクデンキャップ</p>
+    </nav>
+    <main>
+        <h2>競走馬情報</h2>
+        <div class="container">
+            <!-- 競走馬情報のテーブル -->
+            <table class="info-table">
+                <tr>
+                    <th>登録日</th>
+                    <td>2024/10/19</td>
+                </tr>
+                <tr>
+                    <th>馬主</th>
+                    <td><a href="amnoukei.html">amnoukei</a></td>
+                </tr>
+                <tr>
+                    <th>産地</th>
+                    <td>北アラスカ</td>
+                </tr>
+                <tr>
+                    <th>獲得賞金</th>
+                    <td>10G</td>
+                </tr>
+                <tr>
+                    <th>通算戦績</th>
+                    <td>2戦1勝</td>
+                </tr>
+                <tr>
+                    <th>主な勝鞍</th>
+                    <td><a href="20250215mi.html">2025/02/15未勝利</a></td>
+                </tr>
+            </table>
+
+            <!-- 血統表 -->
+            <table class="pedigree-table">
+                <tr class="top-row">
+                    <th colspan="2">父: 不明</th>
+                </tr>
+                <tr class="mother-row">
+                    <th colspan="2">母: 不明</th>
+                </tr>
+            </table>
+        </div>
+
+        <h3>戦績表</h3>
+        <!-- 戦績表 -->
+        <table class="record-table">
+            <tr>
+                <th>日付</th>
+                <th>開催</th>
+                <th>レース名</th>
+                <th>頭数</th>
+                <th>枠番</th>
+                <th>馬番</th>
+                <th>オッズ</th>
+                <th>人気</th>
+                <th>着順</th>
+                <th>騎手</th>
+                <th>距離</th>
+                <th>勝馬(2着馬)</th>
+            </tr>
+            <tr>
+                <td>2025/02/15</td>
+                <td>KTRA</td>
+                <td><a href="20250215mi.html">2025/02/15未勝利</a></td>
+                <td>6</td>
+                <td>2</td>
+                <td>2</td>
+                <td>3.4</td>
+                <td class="first-place">1</td>
+                <td>2</td>
+                <td><a href="ailes8640.html">ailes8640</a></td>
+                <td>障2周易</td>
+                <td><a href="daehanyukgun.html">デハンユックン</a></td>
+            </tr>
+            <tr>
+                <td>2024/11/17</td>
+                <td>KTRA</td>
+                <td><a href="20241117new.html">2024/11/17新馬</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2</td>
+                <td><a href="amnoukei.html">amnoukei</a></td>
+                <td>障2周</td>
+                <td><a href="windowsvista.html">ウィンドウズビスタ</a></td>
+            </tr>
+        </table>
+
+        <p><a href="horse.html">競走馬一覧に戻る</a></p>
+    </main>
+
+    <footer>
+        <p>所在地: -20680, -13230 Kitikmeot人民共和国 Kitlineq市</p>
+        <p><a href="https://discord.gg/aunsTQ7vHt" target="_blank">Kitikmeot[TA]のDiscord Server</a></p>
+    </footer>
+</body>
+</html>
